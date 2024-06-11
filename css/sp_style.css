@@ -1,0 +1,199 @@
+@media screen and (max-width: 767px) {
+/* min-width: 320px;まで */
+
+body { 
+ background-color: #fff;    
+ font-family: "Hiragino Sans","hiragino-kaku-gothic-pron", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
+ color:#505050; 
+}
+
+header {
+ width: auto;
+ height: 50px;
+ background-color: yellow;   
+ display: flex;
+ align-items: center;
+}
+
+#shop_name {
+ width: auto; 
+ font-size: 20px;
+ font-weight: 250;
+ padding: 0px 0 0 0;
+ margin: 0 0 0 17px; 
+ letter-spacing: 0.1px;
+ line-height: 33px;
+}
+
+#navi {
+ display: none;
+}
+ 
+/* main_visual */
+#main_visual {
+ position: relative;    
+ z-index: 10; 
+}
+
+#fv-sp {
+ display: block;
+ width: 375px;
+ height: 550px; 
+}
+
+#fv-pc {
+ display: none;
+} 
+
+#main_visual > h2 {
+ position: absolute; 
+ width: 325px;
+ margin: 44px 27px 0px;
+ text-align: center;
+ font-family: "source-han-sans-vf", sans-serif;
+ font-variation-settings: "wght" 300;
+ letter-spacing : 0.1px;
+ line-height: 1.5;
+ font-size: 35px;    
+ z-index: 11;
+}
+
+/* menu */
+   #menu {
+    width: 375px;
+   }
+
+   #menu > h2 {
+    width: 93px; 
+    font-size: 30px;
+    font-weight: 250;
+    line-height: 45px;
+    padding-top: 51px; 
+    margin: 0 auto;
+   }
+   
+   #menu_wrapper {
+    width: 375px;
+    display: block;       
+    padding: 0;
+    margin-top: 36px;
+    margin-bottom: 50px;   
+   }
+
+   #menu_01 {
+    width: 315px;        
+    margin-left: 30px;    
+   }
+
+   #menu_02 {
+    width: 315px;    
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   #menu_03 {
+    width: 315px;       
+    margin-left: 30px;
+   }
+
+   .picture-wrap {
+    width: 315px;
+    height: 250px;
+    /* margin-top: 36px;     */
+   }
+   
+   .picture-sp {
+    display: block;    
+   }
+   .picture {
+    display: none;
+   }
+
+   .content {
+    width: 315px;
+    margin-top: 22px;
+    margin-bottom: -8px;
+   }
+   
+   .name {
+    width: 315px;   
+    margin-top: 22px;
+   }
+
+   .explain {
+    width: 315px;    
+   }
+
+/* ABOUT */
+   #about {
+    width: 375px;   
+    background-color: rgba(0, 0, 0, 0.051);
+   }
+   #about_wrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+   }   
+
+   #img-wrapper {
+    width: 375px;
+    height: 250px; 
+    margin: 44px auto 0;
+   }
+
+   #about-img-sp{
+    width: 315px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   #about-img {
+    display: none;
+   }
+
+   #text-wrapper {
+    width: 375px;
+    margin-top: 27px;
+   }
+
+   #concept {
+    width: 315px;
+    flex-wrap: wrap;  
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -0.3px;    
+   }
+
+   #detail {
+    width: 315px;
+    flex-wrap: wrap;        
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.1em;    
+   }
+
+   #detail > p {
+    width: 315px;    
+    margin-left: auto;
+    margin-right: auto;  
+   }
+
+   #more-btn {
+    width: 315px;
+    height: 55px;
+    background-color: #505050;   
+    margin: 24px auto 60px;
+   }
+
+  footer {
+    width: 375px;
+  }
+
+  footer > p {
+   width: 375px;
+   font-size: 17px;
+   
+  }
+ 
+
+}
