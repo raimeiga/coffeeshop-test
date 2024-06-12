@@ -13,7 +13,7 @@ body {
 header {
  width: 100%;
  height: 50px;
- background-color: yellow;
+ /* background-color: yellow; */
  display: flex;
  justify-content: space-between;
 }
@@ -60,7 +60,7 @@ header {
 #main_visual { 
   position: relative;  
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 #main_visual > h2 {
@@ -103,13 +103,26 @@ picture {
 /* MENU */
 #menu {
   width: 100%;
+  margin-top: 54px;
+  margin-bottom: 39px;
 }
 
-#menu > h2 {
+#h2-with-padding {
+  padding-top: 44px;
+}
+
+.inner {
+  max-width: 1020px;
+  width: 100%;
+  padding-inline: 30px;
+  margin-inline: auto;  
+}
+
+.inner > h2 {
  width: 93px; 
  font-size: 30px;
  font-weight: 250;
- padding-top: 62px; 
+ /* padding-top: 62px;  */
  margin: 0 auto;
 }
 
@@ -120,14 +133,15 @@ picture {
 
 #menu_wrapper {
  width: 100%;
- display: flex;
- justify-content:space-between;
+ display: flex; 
+ justify-content: center;
+ column-gap: 3.125%;
  margin-top: 10px;
  margin-bottom: 40px;
  padding: 0;
 }
 
-#menu_01,#menu_02,#menu_03 {
+/* #menu_01,#menu_02,#menu_03 {
   width: 27.8%;
 }
 #menu_01 {
@@ -136,7 +150,7 @@ picture {
    
 #menu_03 {
  margin-right: 5.5%;
-}
+} */
 
 .picture-wrap {
   width: 100%;
@@ -182,14 +196,6 @@ picture {
  padding-bottom: 47px;
 }
 
-#about > h2 {
- width: 109px; 
- font-size: 30px;
- font-weight: 250; 
- padding-top: 51px;
- margin: 0 auto;
-}
-
 .border-span-about {
     padding-bottom: 8px;
     border-bottom: solid 3px #505050;
@@ -202,9 +208,9 @@ picture {
 }
 
 #text-wrapper {
-  width: 43.6%;
+  width: 49.06%;
  margin-top: 60px;
- margin-left: 5.5%;
+ /* margin-left: 5.5%; */
 }
 
 #concept {
@@ -220,8 +226,7 @@ picture {
 
 #detail {
  flex-wrap: wrap;
- margin-top: 20px; 
- 
+ margin-top: 20px;  
  line-height: 33px;
 }
 
@@ -234,6 +239,14 @@ picture {
  margin-bottom: 13.5px; 
  letter-spacing: -0.1px;
 }
+
+
+@media screen and (max-width: 791px) {
+  #detail > p > br {
+   display: none;
+  }
+}
+
 
 #more-btn {
  width: 250px;
@@ -253,9 +266,8 @@ picture {
 }
 
 #img-wrapper {
- width: 41.6%;
+ width: 46.87%;
  margin-top: 40px; 
- margin-right: 5.5%;
 }
 
 .about-picture {
@@ -268,7 +280,7 @@ picture {
 }
 
 footer {
- width: 100%;
+ width: 100%; 
  display: flex;
  align-items: center;
  height: 92px;
