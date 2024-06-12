@@ -10,7 +10,7 @@
         <!-- スタイルシート　-->
         <link rel="stylesheet" href="css/style.css">
         <!-- スタイルシートsp　-->
-        <link rel="stylesheet" href="css/sp_style.css">       
+        <link rel="stylesheet" href="css/sp_test_style.css">       
     </head>
     </html>
 
@@ -28,10 +28,9 @@
         <main>
           <section id="main_visual">            
             <h2>お好みのブレンドをお手軽に</h2>
-            <div id="top-picture-wrap">        
-            <!-- ピクタグを使用 -->
-              <picture>
-                <source media="(max-width: 767px)" srcset="/images/FV-sp.jpg">
+            <div id="top-picture-wrap">  
+              <picture><!-- ピクタグを使用 -->
+                <source id="sp-pic" media="(max-width: 767px)" srcset="/images/FV-sp.jpg">
                 <img id="fv-pic" src="/images/FV.jpg" alt="">
               </picture>
             </div>
@@ -41,10 +40,9 @@
            <div class="inner">
             <h2>M<span class="border-span-menu">EN</span>U</h2>
             <div id="menu_wrapper">
-              <div id="menu_01">
-                <div class="picture-wrap">                  
-                <!-- ピクタグを使用 -->
-                  <picture>
+              <div class="menu-list" id="menu_01">
+                <div class="picture-wrap">         
+                  <picture><!-- ピクタグを使用 -->
                     <source media="(max-width: 767px)" srcset="/images/menu01-sp.jpg">
                     <img class="menu-picture" src="/images/menu01.jpg" alt="top image">
                   </picture>
@@ -57,10 +55,9 @@
                 </div>
               </div>
 
-              <div id="menu_02">
-                <div class="picture-wrap">
-                 <!-- ピクタグを使用 -->
-                 <picture>
+              <div class="menu-list" id="menu_02">
+                <div class="picture-wrap">              
+                 <picture><!-- ピクタグを使用 -->
                   <source media="(max-width: 767px)" srcset="/images/menu02-sp.jpg">
                   <img class="menu-picture"  src="/images/menu02.jpg" alt="top image">
                 </picture>
@@ -73,10 +70,9 @@
                 </div>
               </div>
 
-              <div id="menu_03">
+              <div class="menu-list" id="menu_03">
                 <div class="picture-wrap">
-                <!-- ピクタグを使用 -->
-                <picture>
+                <picture><!-- ピクタグを使用 -->
                   <source media="(max-width: 767px)" srcset="/images/menu03-sp.jpg">
                   <img  class="menu-picture" src="/images/menu03.jpg" alt="top image">
                 </picture>
