@@ -43,21 +43,22 @@
             <div id="top-picture-wrap">        
             <!-- ピクタグを使用 -->
               <picture>
-                <source media="(max-width: 767px)" srcset="/images/FV-sp.png">
-                <img id="fv-pic" src="/images/FV.png" alt="">
+                <source media="(max-width: 767px)" srcset="/images/FV-sp.jpg">
+                <img id="fv-pic" src="/images/FV.jpg" alt="">
               </picture>
             </div>
           </section>
 
           <section id="menu">
-            <h2>M<span class="border-span-menu">EN</span>U</h2> 
+           <div class="inner">
+            <h2>M<span class="border-span-menu">EN</span>U</h2>
             <div id="menu_wrapper">
               <div id="menu_01">
                 <div class="picture-wrap">                  
                 <!-- ピクタグを使用 -->
                   <picture>
-                    <source media="(max-width: 767px)" srcset="/images/menu01-sp.png">
-                    <img class="menu-picture" src="/images/menu01.png" alt="top image">
+                    <source media="(max-width: 767px)" srcset="/images/menu01-sp.jpg">
+                    <img class="menu-picture" src="/images/menu01.jpg" alt="top image">
                   </picture>
                 </div>             
                 <div class="content">
@@ -72,8 +73,8 @@
                 <div class="picture-wrap">
                  <!-- ピクタグを使用 -->
                  <picture>
-                  <source media="(max-width: 767px)" srcset="/images/menu02-sp.png">
-                  <img class="menu-picture"  src="/images/menu02.png" alt="top image">
+                  <source media="(max-width: 767px)" srcset="/images/menu02-sp.jpg">
+                  <img class="menu-picture"  src="/images/menu02.jpg" alt="top image">
                 </picture>
                 </div>          
                 <div class="content">
@@ -88,8 +89,8 @@
                 <div class="picture-wrap">
                 <!-- ピクタグを使用 -->
                 <picture>
-                  <source media="(max-width: 767px)" srcset="/images/menu03-sp.png">
-                  <img  class="menu-picture" src="/images/menu03.png" alt="top image">
+                  <source media="(max-width: 767px)" srcset="/images/menu03-sp.jpg">
+                  <img  class="menu-picture" src="/images/menu03.jpg" alt="top image">
                 </picture>
                 </div>
                 
@@ -101,35 +102,37 @@
                 </div>
               </div>          
             </div>
+          </div> 
           </section>
 
           <section id="about">
-            <h2>A<span class="border-span-about">BOU</span>T</h2>            
-            <div id="about_wrapper">
-              <div id="text-wrapper">
-                <div id="concept">
-                  <p>老舗の味をテイクアウトで楽しめる<br>
-                  新しいカフェスタイル</p>
-                  <!-- ↑line-height: 33pxで行間調整 -->
+            <div class="inner">
+              <h2 id="h2-with-padding">A<span class="border-span-about">BOU</span>T</h2>            
+              <div id="about_wrapper">
+                <div id="text-wrapper">
+                  <div id="concept">
+                    <p>老舗の味をテイクアウトで楽しめる<br>
+                    新しいカフェスタイル</p>
+                    <!-- ↑line-height: 33pxで行間調整 -->
+                  </div>
+                  <div id="detail">
+                    <p>知る人ぞ知る東京銀座の老舗カフェが提供する、移動販売
+                    のテイクアウトコーヒーです。<br>
+                    「いつもの」がお家でオフィスでお気軽に楽しめます。</p>
+                    <!-- ↑line-height: 33pxで行間調整 -->
+                  </div>
+                  <div id="more-btn">
+                    <a id="about-more" href="">MORE</a>   <!--  ここにボタン -->
+                  </div>        
+                </div>  
+                <div id="img-wrapper">                  
+                  <picture> <!-- ピクタグを使用 -->
+                    <source media="(max-width: 767px)" srcset="/images/about-sp.jpg">
+                    <img class="about-picture" src="/images/about.jpg" alt="top image">
+                  </picture>
                 </div>
-                <div id="detail">
-                  <p>知る人ぞ知る東京銀座の老舗カフェが提供する、移動販売<br>
-                  のテイクアウトコーヒーです。<br>
-                  「いつもの」がお家でオフィスでお気軽に楽しめます。</p>
-                  <!-- ↑line-height: 33pxで行間調整 -->
-                </div>
-                <div id="more-btn">
-                  <a id="about-more" href="">MORE</a>   <!--  ここにボタン -->
-                </div>        
               </div>  
-              <div id="img-wrapper">
-               <!-- ピクタグを使用 -->
-               <picture>
-                <source media="(max-width: 767px)" srcset="/images/about-sp.png">
-                <img class="about-picture" src="/images/about.png" alt="top image">
-              </picture>
-              </div>
-            </div>            
+            </div>         
           </section>
         </main>
         <footer>
