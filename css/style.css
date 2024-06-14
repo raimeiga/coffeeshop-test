@@ -167,7 +167,7 @@ picture {
 }
 
 #h2-with-padding {
-  padding-top: 57px;
+  padding-top: 51px;
 }
 
 .border-span-about {
@@ -180,6 +180,7 @@ picture {
   width: 100%;
  display: flex;
  justify-content: space-between; 
+ margin-top: -10px;
 }
 
 #text-wrapper {
