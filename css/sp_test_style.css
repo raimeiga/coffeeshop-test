@@ -45,7 +45,7 @@ header {
 /* MENU */
 #menu {
  width: 100%;
- margin-top: 58px;    
+ margin-top: 58px;   
 }
 
 #inner {
@@ -56,12 +56,16 @@ header {
  margin-inline: auto;   
 }
 
+.inner > h2 {
+ width: 80px;
+ letter-spacing: -1.93px
+}
+
 .border-span-menu {
  padding-bottom:7px;
  margin-bottom: 30px;
  display:inline-block;
  border-bottom: solid 3px #505050;
- 
 }
 
 #menu_wrapper {
@@ -81,66 +85,72 @@ header {
 }
 
 .content {
-    width: 100%;
+   width: 100%;
    margin-top: 0px;
   }
 
-  .name {
-    margin-top: 22px;
-    letter-spacing: 0.05px;
-   }
+.name {
+  margin-top: 22px;
+  letter-spacing: 0.05px;
+}
 
-   .explain {    
-    line-height: 25px;
-   }
+.explain {    
+ line-height: 25px;
+}
 
 /* ABOUT */
 #about_wrapper {
-    width: 100%;
-    flex-wrap: wrap-reverse;
-   }
+ width: 100%;
+ flex-wrap: wrap-reverse;
+ margin-top: 1px;
+}
    
-   #text-wrapper {
-    width: 100%;
-    margin-top: 30px;
-   }
-   
-   #concept {
-    width:100%;
-    flex-wrap: wrap;
-    font-weight:400;  
-    font-size: 22px;
-    /* margin-left: 60px; */
-    /* letter-spacing: -0.15px;
-    line-height:  */
-   }
-   
-   #concept > p > br {
-    display: none;
-   }
+#h2-with-padding {
+ width: 105px;
+ padding-top: 57px;
+ letter-spacing: 0.1px;
+}
 
-    #more-btn {
-        width: 100%;        
-       }
+
+#text-wrapper {
+ width: 100%;
+ margin-top: 30px;
+}
+   
+#concept {
+ width:100%;
+ flex-wrap: wrap;
+ font-weight:400;  
+ font-size: 22px;
+ letter-spacing: -0.2px;
+}
+   
+#concept > p > br {
+ display: none;
+}
+
+#more-btn {
+ width: 100%;        
+}
     
-       #img-wrapper {
-        width: 100%;
-        margin-top: 30px; 
-       }
+#img-wrapper {
+ width: 100%;
+ margin-top: 30px; 
+}
 
-       #detail > p {
-        letter-spacing: 0.51px;
-       }
+#detail > p {
+ letter-spacing: 0.3px;
+}
 
-       #detail > p > br {
-        display: block;
-       }
+#detail > p > br {
+ display: block;
+}
 
-       footer > p {
-        width: 100%;        
-        font-size: 17px;
-        letter-spacing: 0.02px;
-       }
+footer > p {
+ width: 100%;        
+ font-size: 17px;
+ letter-spacing: 0.02px;
+}
        
 
 }
