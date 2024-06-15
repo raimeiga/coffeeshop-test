@@ -93,7 +93,7 @@ picture {
 /* MENU */
 #menu {
   width: 100%;
-  margin-top: 61px;
+  padding-top: 61px;
   margin-bottom: 39px;
 }
 
@@ -163,12 +163,13 @@ picture {
 #about {
  width: 100%;
  background-color: rgba(0, 0, 0, 0.051);
+ padding-top: 51px;
  padding-bottom: 47px;
 }
 
-#h2-with-padding {
+/* #h2-with-padding {
   padding-top: 51px;
-}
+} */
 
 .border-span-about {
  padding-bottom: 8px;
