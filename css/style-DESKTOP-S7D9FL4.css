@@ -195,17 +195,16 @@ picture {
  width: 100%;
  display: flex;
  justify-content: space-between; 
- column-gap: 3.82%;
  margin-top: 19px;
 }
 
 #text-wrapper {
- width: 46.17%;
+ width: 43.61%;
  margin-top: 60px;
 }
 
 #concept {
- width: 80.73%;
+ width: 32.59%;
  flex-wrap: wrap;
  font-weight:400;  
  font-size: 22px;
@@ -213,7 +212,6 @@ picture {
 }
 
 #detail {
- width: 100%;
  flex-wrap: wrap;
  margin-top: 20px;  
  line-height: 33px;
@@ -223,7 +221,8 @@ picture {
  font-weight:250;  
  font-size: 18px; 
  margin-right: 0;
- margin-bottom: 13.5px;
+ margin-bottom: 13.5px; 
+ letter-spacing: -0.1px;
 }
 
 @media screen and (max-width: 802px) {
@@ -255,7 +254,7 @@ button:hover {
 }
 
 #img-wrapper {
- width: 39.21%;
+ width: 41.66%;
  margin-top: 40px; 
 }
 
