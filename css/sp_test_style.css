@@ -32,8 +32,7 @@ header {
 #main_visual > h2 { 
  width: 313px;
  padding-top: calc(26 / 375 * 100vw); 
- font-size: 32px;    
- letter-spacing: 2.2px; 
+ font-size: 32px;
  line-height: 53.5px; 
 }
 @media screen and (max-width: 350px) {
@@ -85,12 +84,21 @@ header {
 }
 
 .content {
+<<<<<<< HEAD
+ width: 100%;
+ margin-top: 0px;
+}
+
+.name {
+ margin-top: 22px;
+=======
    width: 100%;
    margin-top: 0px;
   }
 
 .name {
   margin-top: 22px;
+  letter-spacing: 0.05px;
 }
 
 .explain {    
@@ -107,6 +115,26 @@ header {
 #about_wrapper {
  width: 100%;
  flex-wrap: wrap-reverse;
+<<<<<<< HEAD
+}
+   
+#text-wrapper {
+ width: 100%;
+ margin-top: 30px;
+}
+   
+#concept {
+ width:100%;
+ flex-wrap: wrap;
+ font-weight:400;  
+ font-size: 22px;
+}
+   
+#concept > p > br {
+ display: none;
+}
+
+=======
  margin-top: 1px;
 }
    
@@ -131,6 +159,7 @@ header {
  display: none;
 }
 
+>>>>>>> 228dca77dce83ad7375adc241494a0ae64c5df0e
 #more-btn {
  width: 100%;        
 }
@@ -141,6 +170,7 @@ header {
 }
 
 #detail > p {
+ letter-spacing: 0.3px;
 }
 
 #detail > p > br {
@@ -150,7 +180,9 @@ header {
 footer > p {
  width: 100%;        
  font-size: 17px;
+ letter-spacing: 0.02px;
 }
        
+>>>>>>> 228dca77dce83ad7375adc241494a0ae64c5df0e
 
 }

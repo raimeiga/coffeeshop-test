@@ -104,11 +104,19 @@ picture {
   margin-inline: auto;  
 }
 
+<<<<<<< HEAD
+.inner > h2 {
+ width: 102px; 
+ font-size: 30px;
+ margin: 0 auto;
+}
+=======
 /* .inner > h2 {
  width: 95px; 
  font-size: 30px;
  margin: 0 auto;
 } */
+>>>>>>> 228dca77dce83ad7375adc241494a0ae64c5df0e
 
 .inner > h2 {
   font-size: 30px;  
@@ -181,6 +189,13 @@ picture {
  padding-bottom: 47px;
 }
 
+<<<<<<< HEAD
+.border-span-about {
+ padding-bottom: 8px;
+ display:inline-block;
+ border-bottom: solid 3px #505050;
+}
+=======
 /* #h2-with-padding {
   padding-top: 51px;
 } */
@@ -190,6 +205,7 @@ picture {
  display:inline-block;
  border-bottom: solid 3px #505050;
 } */
+>>>>>>> 228dca77dce83ad7375adc241494a0ae64c5df0e
 
 #about_wrapper {
   width: 100%;
@@ -201,7 +217,6 @@ picture {
 #text-wrapper {
  width: 49.06%;
  margin-top: 60px;
- /* margin-left: 5.5%; */
 }
 
 #concept {
@@ -223,6 +238,7 @@ picture {
  font-size: 18px; 
  margin-right: 0;
  margin-bottom: 13.5px; 
+ letter-spacing: -0.1px;
 }
 
 @media screen and (max-width: 802px) {
