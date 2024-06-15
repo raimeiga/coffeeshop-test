@@ -104,18 +104,34 @@ picture {
   margin-inline: auto;  
 }
 
-.inner > h2 {
+/* .inner > h2 {
  width: 95px; 
  font-size: 30px;
  margin: 0 auto;
  letter-spacing: -1.93px
-}
+} */
 
-.border-span-menu {
+.inner > h2 {
+  font-size: 30px;  
+  text-align: center;
+  padding-bottom: 0px;
+ }
+ 
+ .inner > h2::after {
+  content: '';
+  display: block;
+  width: 52px;
+  height: 2.5px;
+  background: #00CC99;
+  margin: 9px auto 0;
+ }
+
+
+/* .border-span-menu {
  padding-bottom: 8px;
  display:inline-block;
  border-bottom: solid 3px #505050;
-}
+} */
 
 #menu_wrapper {
  width: 100%;
@@ -171,11 +187,11 @@ picture {
   padding-top: 51px;
 } */
 
-.border-span-about {
+/* .border-span-about {
  padding-bottom: 8px;
  display:inline-block;
  border-bottom: solid 3px #505050;
-}
+} */
 
 #about_wrapper {
   width: 100%;
@@ -220,7 +236,30 @@ picture {
   }
 }
 
-#more-btn {
+button {
+  width: 250px;
+  height: 55px;
+  background-color: #505050; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 22px 0 0 0 ;
+  color: #fff;
+  font-size: 25px;  
+  transition: color 0.4s linear;   
+  transition: background-color 0.4s linear;
+}
+
+/* ホバー時のスタイル */
+button:hover {  
+  cursor: pointer;  /* カーソルを指マークに変更 */
+  color: #999999  ;
+  background-color: #fff; 
+  border: solid 0.5px #505050; 
+}
+
+
+/* #more-btn {
  width: 250px;
  height: 55px;
  background-color: #505050; 
@@ -234,7 +273,7 @@ picture {
  color: #fff;
  font-size: 25px;
  margin-top: 4px;
-}
+} */
 
 #img-wrapper {
  width: 46.87%;
