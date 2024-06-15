@@ -171,10 +171,10 @@ picture {
 }
 
 .border-span-about {
-    padding-bottom: 8px;
-     display:inline-block;
-    border-bottom: solid 3px #505050;
-   }
+ padding-bottom: 8px;
+ display:inline-block;
+ border-bottom: solid 3px #505050;
+}
 
 #about_wrapper {
   width: 100%;
