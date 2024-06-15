@@ -46,12 +46,18 @@ header {
  z-index: 11;
 }
 
-#sp-pic {
+/* #sp-pic {
  width: 50px;
-}
+} */
 
 /* MENU */
-  
+#menu {
+  width: 100%;
+  padding-top: 0;
+  margin-top: 59px;
+  margin-bottom: 39px;
+}
+
 .inner {
   max-width: 345px;
   width: 100%;
@@ -76,29 +82,12 @@ header {
     margin-bottom: 50px;   
    }
 
-   /* #menu_01 {
-    width: 315px;        
-    margin-left: 30px;    
-   }
-
-   #menu_02 {
-    width: 315px;    
-    margin-left: auto;
-    margin-right: auto;
-   }
-   
-   #menu_03 {
-    width: 315px;       
-    margin-left: 30px;
-   } */
-
    .picture-wrap {
     width: 100%;
     height: 250px;
-    /* margin-top: 36px;     */
+
    }
-   
-   
+     
    .content {
     width: 100%;
     margin-top: 22px;
