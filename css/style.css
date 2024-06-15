@@ -11,6 +11,7 @@ body {
  font-family: "Hiragino Sans", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
  font-weight: 250;  
  color:#505050; 
+ letter-spacing: 0;
 }
 
 header {
@@ -70,7 +71,6 @@ header {
  text-align: center;
  font-weight: 400;
  font-size: 38px;
- letter-spacing: 2.2px;
  z-index: 11;
 }
 
@@ -108,7 +108,6 @@ picture {
  width: 95px; 
  font-size: 30px;
  margin: 0 auto;
- letter-spacing: -1.93px
 } */
 
 .inner > h2 {
@@ -163,7 +162,6 @@ picture {
  text-align: center; 
  font-size: 20px;
  font-weight: 400; 
- letter-spacing: -1.95px;
  margin-top: 30px;
 }
 
@@ -211,8 +209,6 @@ picture {
  flex-wrap: wrap;
  font-weight:400;  
  font-size: 22px;
- /* margin-left: 60px; */
- letter-spacing: -0.15px;
  line-height: 33px;
 }
 
@@ -227,7 +223,6 @@ picture {
  font-size: 18px; 
  margin-right: 0;
  margin-bottom: 13.5px; 
- letter-spacing: -0.1px;
 }
 
 @media screen and (max-width: 802px) {
@@ -298,7 +293,6 @@ footer > p {
  text-align: center;
  color: #fff; 
  font-size: 20px;
- letter-spacing: 0.01rem;
  margin-top: 5px;
  margin-left: auto;
  margin-right: auto;
