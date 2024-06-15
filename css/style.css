@@ -11,6 +11,7 @@ body {
  font-family: "Hiragino Sans", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
  font-weight: 250;  
  color:#505050; 
+ letter-spacing: 0;
 }
 
 header {
@@ -70,7 +71,6 @@ header {
  text-align: center;
  font-weight: 400;
  font-size: 38px;
- letter-spacing: 2.2px;
  z-index: 11;
 }
 
@@ -93,7 +93,7 @@ picture {
 /* MENU */
 #menu {
   width: 100%;
-  margin-top: 61px;
+  padding-top: 61px;
   margin-bottom: 39px;
 }
 
@@ -105,10 +105,9 @@ picture {
 }
 
 .inner > h2 {
- width: 95px; 
+ width: 102px; 
  font-size: 30px;
  margin: 0 auto;
- letter-spacing: -1.93px
 }
 
 .border-span-menu {
@@ -147,7 +146,6 @@ picture {
  text-align: center; 
  font-size: 20px;
  font-weight: 400; 
- letter-spacing: -1.95px;
  margin-top: 30px;
 }
 
@@ -163,18 +161,15 @@ picture {
 #about {
  width: 100%;
  background-color: rgba(0, 0, 0, 0.051);
+ padding-top: 51px;
  padding-bottom: 47px;
 }
 
-#h2-with-padding {
-  padding-top: 51px;
-}
-
 .border-span-about {
-    padding-bottom: 8px;
-     display:inline-block;
-    border-bottom: solid 3px #505050;
-   }
+ padding-bottom: 8px;
+ display:inline-block;
+ border-bottom: solid 3px #505050;
+}
 
 #about_wrapper {
   width: 100%;
@@ -186,7 +181,6 @@ picture {
 #text-wrapper {
  width: 49.06%;
  margin-top: 60px;
- /* margin-left: 5.5%; */
 }
 
 #concept {
@@ -194,8 +188,6 @@ picture {
  flex-wrap: wrap;
  font-weight:400;  
  font-size: 22px;
- /* margin-left: 60px; */
- letter-spacing: -0.15px;
  line-height: 33px;
 }
 
@@ -209,8 +201,7 @@ picture {
  font-weight:250;  
  font-size: 18px; 
  margin-right: 0;
- margin-bottom: 13.5px; 
- letter-spacing: -0.1px;
+ margin-bottom: 13.5px;
 }
 
 @media screen and (max-width: 802px) {
@@ -258,7 +249,6 @@ footer > p {
  text-align: center;
  color: #fff; 
  font-size: 20px;
- letter-spacing: 0.01rem;
  margin-top: 5px;
  margin-left: auto;
  margin-right: auto;
