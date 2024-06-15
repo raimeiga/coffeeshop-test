@@ -196,11 +196,11 @@ picture {
  display: flex;
  justify-content: space-between; 
  column-gap: 3.82%;
- margin-top: 19px;
+ margin-top: -10px;
 }
 
 #text-wrapper {
- width: 46.17%;
+ width: 49.06%;
  margin-top: 60px;
 }
 
@@ -255,7 +255,7 @@ button:hover {
 }
 
 #img-wrapper {
- width: 39.21%;
+ width: 46.875%;
  margin-top: 40px; 
 }
 
