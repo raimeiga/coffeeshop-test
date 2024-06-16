@@ -44,8 +44,7 @@ header {
 
 /* MENU */
 #menu {
- width: 100%;
- margin-top: -3px;    
+ width: 100%;  
 }
 
 #inner {
@@ -96,9 +95,7 @@ header {
 
 #about {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.051);
-  padding-top: 57px;
-  padding-bottom: 47px;
+  background-color: rgba(0, 0, 0, 0.051);  
  }
 
 #about_wrapper {
