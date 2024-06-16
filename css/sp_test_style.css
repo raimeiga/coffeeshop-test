@@ -20,8 +20,8 @@ header {
 #shop_name {
  width: 200px; 
  font-size: 20px;
- padding: 14px 0 0 0;
- margin: 1px 0 0 19px; 
+ padding: 3px 0 0 0;
+ margin: 0px 0 0 19px;
 } 
 
 #navi {
@@ -31,7 +31,7 @@ header {
 /* main_visual */
 #main_visual > h2 { 
  width: 313px;
- padding-top: calc(26 / 375 * 100vw); 
+ padding-top: calc(28 / 375 * 100vw); 
  font-size: 32px;
  line-height: 53.5px; 
 }
@@ -45,7 +45,7 @@ header {
 /* MENU */
 #menu {
  width: 100%;  
- padding-top: 61px;
+ padding-top: 52px;
  margin-bottom: 39px;
 }
 
@@ -72,7 +72,7 @@ header {
 }
 
 .menu-list {
- margin-bottom: 24px;
+ margin-bottom: 22px;
 }
 
 .picture-wrap {
@@ -98,7 +98,7 @@ header {
 #about {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.051);  
-  padding-top: 51px;
+  padding-top: 49px;
   padding-bottom: 47px;
  }
 
