@@ -45,6 +45,8 @@ header {
 /* MENU */
 #menu {
  width: 100%;  
+ padding-top: 61px;
+ margin-bottom: 39px;
 }
 
 #inner {
@@ -96,6 +98,8 @@ header {
 #about {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.051);  
+  padding-top: 51px;
+  padding-bottom: 47px;
  }
 
 #about_wrapper {
@@ -147,9 +151,6 @@ button:hover {
   background-color: #fff; 
   border: solid 0.5px #505050;  /*枠線　線の種類　太さ　色*/
 }
-
-
-
 
 #detail > p > br {
  display: block;
