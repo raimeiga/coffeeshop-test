@@ -136,11 +136,8 @@ picture {
 
 #menu_wrapper {
  width: 100%;
- display: flex; 
- /* justify-content: center; */
+ display: flex;  
  column-gap: 3.125%;
- margin-top: 0px;
- margin-bottom: 40px;
  padding: 0;
 }
 
