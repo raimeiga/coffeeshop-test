@@ -7,7 +7,6 @@ html {
 }
 
 body {
- width: 100%;
  background-color: #fff;    
  font-family: "Hiragino Sans", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
  font-weight: 250;  
@@ -191,7 +190,8 @@ picture {
 } */
 
 #about_wrapper {
- /* width: 100%; */
+ width: 100%;
+
  display: flex;
  justify-content: space-between; 
  column-gap: 3.82%;
