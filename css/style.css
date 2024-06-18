@@ -3,6 +3,7 @@
 html {
  padding: 0;
  margin: 0;    
+ scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
  font-family: "Hiragino Sans", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
  font-weight: 250;  
  color:#505050; 
- line-height: 0;
+ letter-spacing: 0;
 }
 
 header {
@@ -20,7 +21,7 @@ header {
  display: flex;
  justify-content: space-between;
  align-items: center;
- line-height: 1.65;
+ /* line-height: 1.65; */
 }
 
 .hover-color:hover {
@@ -30,7 +31,7 @@ header {
 #shop_name {
  /* width: 200px;  FB後に削除してみた */
  font-size: 20px;
- padding: 17px 11px 13px 11px;
+ padding: 11px 0px 6px 11px;
  margin: 0 0 0 49px; 
 } 
 
@@ -49,15 +50,19 @@ header {
 #navi_menu {
  /* width: 73px; FB後に削除してみた*/
  /* height: 33px;     */
- padding: 17px 11px 13px 11px;
+ font-size: 20px;
+ padding: 10px 11px 7px 11px;
  margin: 0 11px 0 0px;
+ line-height: 1.65;
 }
 
 #navi_about {
  /* width: 73px; FB後に削除してみた*/
  /* height: 33px;  */ 
- padding: 17px 11px 13px 11px;
+ font-size: 20px;
+ padding: 10px 11px 7px 11px;
  margin: 0 44px 0 5px;
+ line-height: 1.65;
 }
 
 /* main */
@@ -124,7 +129,7 @@ picture {
   display: block;
   width: 52px;
   height: 2.5px;
-  background: #00CC99;
+  background: #505050;
   margin: 4px auto 0;
  }
 
