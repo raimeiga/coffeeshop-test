@@ -57,13 +57,6 @@ header {
  margin-inline: auto;   
 }
 
-/* .border-span-menu {
- padding-bottom:7px;
- margin-bottom: 30px;
- display:inline-block;
- border-bottom: solid 3px #505050; 
-} */
-
 #menu_wrapper {
  width: 100%;
  display: block;
@@ -94,11 +87,10 @@ header {
 }
 
 /* ABOUT */
-
 #about {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.051);  
-  padding-top: 49px;
+  padding-top: 52px;
   padding-bottom: 47px;
  }
 
