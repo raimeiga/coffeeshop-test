@@ -20,56 +20,45 @@ header {
  display: flex;
  justify-content: space-between;
  align-items: center;
- /* line-height: 1.65; */
 }
 
 .hover-color:hover {
   color: #38A1DB; /* 文字色 */  
 }
 
-#shop_name {
- /* width: 200px;  FB後に削除してみた */
+#shop_name { 
  font-size: 20px;
- padding: 11px 0px 6px 11px;
- margin: 0 0 0 49px; 
+ margin: 0 0 0 60px; 
 } 
 
 #navi {
- /* width: 200px; FB後に削除してみた */
- display: flex; 
+ display: flex;
  align-items: center;
-/* justify-content: end; */
- /* justify-content: center; */
- /* column-gap: 5px; */
- padding: 0 11px;
- margin: 0 0px 0 0;
- font-size: 20px;  
+ column-gap: 22px;
+ margin: 0 53px 0 0;
 }
 
-#navi_menu {
- /* width: 73px; FB後に削除してみた*/
- /* height: 33px;     */
- font-size: 20px;
- padding: 10px 11px 7px 11px;
- margin: 0 11px 0 0px;
- line-height: 1.65;
-}
+#navi_menu { 
+  display: block;
+  height: inherit;
+  font-size: 20px;
+  padding:0 10px;
+  /* padding: 10px 11px 7px 11px; */
+  /* margin: 0 11px 0   0px; */
+  line-height: 1.65;
+ }
+ 
+ #navi_about {
+  display: block;
+  height: inherit;
+  font-size: 20px;
+  padding:0 10px;
+  /* padding: 10px 11px 7px 11px; */
+  /* margin: 0 44px 0 5px; */
+  line-height: 1.65;
+ } 
 
-#navi_about {
- /* width: 73px; FB後に削除してみた*/
- /* height: 33px;  */ 
- font-size: 20px;
- padding: 10px 11px 7px 11px;
- margin: 0 44px 0 5px;
- line-height: 1.65;
-}
-
-/* main */
-/* #main {
-  width: 100%;
-} */
-
-/* main_visual */
+ /* main_visual */
 #main_visual { 
   position: relative;  
   display: flex;
@@ -87,18 +76,12 @@ header {
  line-height: 1.5;
 }
 
-/* #top-picture-wrap {
-  width: 100%;
-} */
-
 #fv-pic {
 width: 100%;    /* 必要な理由が不明 */
 }
 
 picture {
-  display: block; 
-  /* width: 100%;  
-  height: 100%; */
+  display: block;   
   z-index: 10;  
 }
 
@@ -179,19 +162,8 @@ picture {
  padding-bottom: 47px;
 }
 
-/* #h2-with-padding {
-  padding-top: 51px;
-} */
-
-/* .border-span-about {
- padding-bottom: 8px;
- display:inline-block;
- border-bottom: solid 3px #505050;
-} */
-
 #about_wrapper {
  width: 100%;
-
  display: flex;
  justify-content: space-between; 
  column-gap: 3.82%;
