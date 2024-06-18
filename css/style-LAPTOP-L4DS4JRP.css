@@ -23,7 +23,7 @@ header {
  line-height: 1.65;
 }
 
-header:hover {
+.hover-color:hover {
   color: #38A1DB; /* 文字色 */  
 }
 
@@ -112,12 +112,6 @@ picture {
   margin-inline: auto;  
 }
 
-/* .inner > h2 {
- width: 102px; 
- font-size: 30px;
- margin: 0 auto;
-} */
-
 .inner > h2 {
   font-size: 30px;  
   text-align: center;
@@ -136,11 +130,8 @@ picture {
 
 #menu_wrapper {
  width: 100%;
- display: flex; 
- /* justify-content: center; */
+ display: flex;  
  column-gap: 3.125%;
- margin-top: 0px;
- margin-bottom: 40px;
  padding: 0;
 }
 
@@ -199,12 +190,12 @@ picture {
  display: flex;
  justify-content: space-between; 
  column-gap: 3.82%;
- margin-top: -10px;
+ margin-top: 10px;
 }
 
 #text-wrapper {
  width: 49.06%;
- margin-top: 60px;
+ margin-top: 40px;
 }
 
 #concept {
@@ -222,7 +213,7 @@ picture {
  line-height: 1.83;
 }
 
-#detail > p {
+#detail > p { 
  font-weight:250;  
  font-size: 18px; 
  margin-right: 0;
@@ -259,37 +250,14 @@ button:hover {
 }
 
 #img-wrapper {
- width: 46.87%;
- margin-top: 40px; 
+ width: 46.875%;
+ margin-top: 20px; 
 }
 
 .about-picture {
   width: 100%;
   display: block; 
 }
-
-#yahhoi {
-  width: 100%;
-}
-
-.kimoto-inner {
-  max-width: 1020px;
-  width: 100%;
-  padding-inline: 30px;
-  margin-inline: auto;  
-}
-
-.kimoto-wrap {
-  width: 100%;
-  background-color: red;
-}
-
-#kimoto {
-  width: 100%;
-  background-color: blue;
-}
-
-
 
 footer {
  width: 100%; 
@@ -309,4 +277,3 @@ footer > p {
  margin-right: auto;
  line-height: 1.65;
 }
-
