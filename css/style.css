@@ -250,42 +250,14 @@ button:hover {
 }
 
 #img-wrapper {
-<<<<<<< HEAD
  width: 46.87%;
- margin-top: 40px; 
-=======
- width: 46.875%;
  margin-top: 20px; 
->>>>>>> b345999f620df33f6d6418de346abbe33fa147cf
 }
 
 .about-picture {
   width: 100%;
   display: block; 
 }
-
-#yahhoi {
-  width: 100%;
-}
-
-.kimoto-inner {
-  max-width: 1020px;
-  width: 100%;
-  padding-inline: 30px;
-  margin-inline: auto;  
-}
-
-.kimoto-wrap {
-  width: 100%;
-  background-color: red;
-}
-
-#kimoto {
-  width: 100%;
-  background-color: blue;
-}
-
-
 
 footer {
  width: 100%; 
