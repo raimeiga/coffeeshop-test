@@ -64,14 +64,19 @@ header {
 
 #main_visual > h2 {
  position: absolute;
- width: 570px;
- margin-top: calc(56 / 1080 * 100vw);
+ /* width: 570px;  */
+ margin-top: calc(54 / 1080 * 100vw);
  text-align: center;
  font-weight: 200;
  font-size: 38px;
  z-index: 11;
  line-height: 1.5;
 }
+
+#main_visual > h2 > br {
+  display: none;
+}
+
 
 #fv-pic {
 width: 100%;    /* 必要な理由が不明 */
@@ -173,7 +178,7 @@ picture {
 }
 
 #concept {
- width: 100%;
+ width: 75%;
  flex-wrap: wrap;
  font-weight:400;  
  font-size: 22px;
@@ -194,11 +199,11 @@ picture {
  margin-bottom: 13.5px;
 }
 
-@media screen and (max-width: 802px) {
+/* @media screen and (max-width: 802px) {
   #detail > p > br {
    display: none;
   }
-}
+} */
 
 button {
   width: 250px;
