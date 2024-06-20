@@ -30,16 +30,23 @@ header {
 
 /* main_visual */
 #main_visual > h2 { 
- width: 313px;
+ /* width: 313px; */
  padding-top: calc(28 / 375 * 100vw); 
- font-size: 32px;
+ font-size: 35px;
  line-height: 1.5; 
 }
+
+@media screen and (max-width: 530px) {
+ #main_visual > h2 > br {
+   display: block;
+ }
+}
+
 @media screen and (max-width: 350px) {
  #main_visual > h2 {
-  width: 290px;
+  /* width: 290px; */
   font-size: 30px; 
-}
+ }
 }
 
 /* MENU */
@@ -112,9 +119,25 @@ header {
  font-size: 22px;
 }
    
-#concept > p > br {
- display: none;
+#concept > p {
+ 
 }
+
+#concept > p > br {
+  display: none;
+ }
+
+/* @media screen and (max-width: 631px) {
+  #concept > p > br {
+   display: block;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  #concept > p > br > {
+   display: block;
+  }
+} */
 
 #more-btn {
  width: 100%;        
@@ -124,9 +147,6 @@ header {
  width: 100%;
  margin-top: 20px; 
 }
-
-/* #detail > p {
-} */
 
 button {
   max-width: 345px;
