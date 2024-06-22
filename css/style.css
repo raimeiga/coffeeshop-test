@@ -44,7 +44,7 @@ header {
   font-size: 20px;
   padding: 10.5px 10px 6.5px;
   line-height: 1.65;
-  transition: all 1s ease-out;    
+  transition: color 0.4s ease-out;    
  }
  
  #navi_about {
@@ -52,7 +52,7 @@ header {
   font-size: 20px;
   padding: 10.5px 10px 6.5px;
   line-height: 1.65;
-  transition: all 1s ease-out; 
+  transition: color 0.4s ease-out; 
  } 
 
  /* main_visual */
@@ -64,7 +64,6 @@ header {
 
 #main_visual > h2 {
  position: absolute;
- /* width: 570px;  */
  margin-top: calc(54 / 1080 * 100vw);
  text-align: center;
  font-weight: 200;
@@ -72,11 +71,19 @@ header {
  z-index: 11;
  line-height: 1.5;
 }
-
-#main_visual > h2 > br {
-  display: none;
-}
-
+/* ↓ セレクタ優先で記述したほうが把握
+     しやすい（見やすい）ので真下に書く  */
+@media screen and (min-width: 531px) {
+  .br-hidden-min531 {
+    display: none;
+  }
+ } 
+ @media screen and (max-width: 350px) {
+  #main_visual > h2 {
+   /* width: 290px; */
+   font-size: 30px; 
+  }
+ }
 
 #fv-pic {
 width: 100%;    /* 必要な理由が不明 */
@@ -139,6 +146,12 @@ picture {
  margin-top: 33px;
 }
 
+@media screen and (max-width: 815px) {
+ .ib {
+  display: inline-block;  
+ }
+}
+
 .name {
  /* width: 100%; */
  text-align: center; 
@@ -177,12 +190,29 @@ picture {
  margin-top: 40px;
 }
 
-#concept {
+/* #concept {
  width: 75%;
  flex-wrap: wrap;
  font-weight:400;  
  font-size: 22px;
  line-height: 1.5;
+} */
+
+#concept {
+  width: 100%;
+  flex-wrap: wrap;
+  font-weight:400;  
+  font-size: 22px;
+  line-height: 1.5;
+ } 
+
+ @media screen and (max-width: 777px) {
+  .br-hidden-min777 {
+   display: none;
+  }
+  .u-ib {
+	 display: inline-block;  
+  } 
 }
 
 #detail {
@@ -198,12 +228,6 @@ picture {
  margin-right: 0;
  margin-bottom: 13.5px;
 }
-
-/* @media screen and (max-width: 802px) {
-  #detail > p > br {
-   display: none;
-  }
-} */
 
 button {
   width: 250px;

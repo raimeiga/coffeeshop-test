@@ -36,19 +36,6 @@ header {
  line-height: 1.5; 
 }
 
-@media screen and (max-width: 530px) {
- #main_visual > h2 > br {
-   display: block;
- }
-}
-
-@media screen and (max-width: 350px) {
- #main_visual > h2 {
-  /* width: 290px; */
-  font-size: 30px; 
- }
-}
-
 /* MENU */
 #menu {
  width: 100%;  
@@ -173,5 +160,5 @@ footer > p {
  width: 100%;        
  font-size: 17px;
 }       
+}  
 
-}
